@@ -22,7 +22,7 @@
 			</tr>
 			<tr>
 				<td>Order Id</td>
-				<td><input type="text" name="order_id" value="21234124" /></td>
+				<td><input type="text" name="order_id" value="<%= order_id %>" /></td>
 			</tr>
 			<tr>
 				<td>Currency</td>
@@ -30,12 +30,12 @@
 			</tr>
 			<tr>
 				<td>Amount</td>
-				<td><input type="text" name="amount" value="1.00" /></td>
+				<td><input type="text" name="amount" value="<%= amount %>" /></td>
 			</tr>
 			<tr>
 				<td>Redirect URL</td>
 				<td><input type="text" name="redirect_url"
-					value="http://127.0.0.1:3001/ccavResponseHandler" />
+					value="https://nashikobgyn.com/login" />
 				</td>
 			</tr>
 			<tr>
@@ -53,7 +53,7 @@
 			</tr>
 			<tr>
 				<td>Billing Name</td>
-				<td><input type="text" name="billing_name" value="Peter" /></td>
+				<td><input type="text" name="billing_name" value="<%= name %>" /></td>
 			</tr>
 			<tr>
 				<td>Billing Address:</td>
@@ -84,8 +84,7 @@
 			</tr>
 			<tr>
 				<td>Billing Email:</td>
-				<td><input type="text" name="billing_email"
-					value="testing@domain.com" /></td>
+				<td><input type="text" name="billing_email" value="<%= email %>" /></td>
 			</tr>
 			<tr>
 				<td colspan="2">Shipping information(optional):</td>

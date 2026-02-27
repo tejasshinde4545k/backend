@@ -7,7 +7,7 @@ var http = require('http'),
 exports.postRes = function(request,response){
     var ccavEncResponse='',
 	ccavResponse='',	
-	workingKey = 'AFC1B3227A24C4BF638E909F6205F641',	//Put in the 32-Bit key shared by CCAvenues.
+	workingKey = 'C1AE2AD0378337F3DB5EDDD76E55443A',	//Put in the 32-Bit key shared by CCAvenues.
 	ccavPOST = '';
 	
     //Generate Md5 hash for the key and then convert in base64 string
